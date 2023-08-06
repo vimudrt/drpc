@@ -42,7 +42,7 @@ module.exports = {
     "spotify": {
         "name": "death", // for exemple listening to {name} instead of listening to spotify
         "details": "it always end the same way.", // title
-        "state": "currently = empty", // row below title
+        "state": "empty", // row below title
 
         "largeImageKey": "spotify:ab67706c0000bebb835d763853e49e5d81bbc15d", // https://github.com/mewzax/Discord-RPC-Selfbot/wiki/Spotify-API
         "largeImageText": "", // will also be second row below title
