@@ -2,12 +2,12 @@
 
 module.exports = {
     // spotify/game/twitch
-    "mode": "", 
+    "mode": "Spotify",
     // dnd/online/idle
-    "status": "",
+    "status": "idle",
 
     "game": {
-        "applicationID": "",
+        "applicationID": "1130600146401501325",
 
         "name": "", // title
         "details": "", // first row below title
@@ -40,11 +40,11 @@ module.exports = {
         "endTimestamp": ""
     },
     "spotify": {
-        "name": "", // for exemple listening to {name} instead of listening to spotify
-        "details": "", // title
-        "state": "", // row below title
+        "name": "death", // for exemple listening to {name} instead of listening to spotify
+        "details": "it always end the same way.", // title
+        "state": "currently = empty", // row below title
 
-        "largeImageKey": "", // https://github.com/mewzax/Discord-RPC-Selfbot/wiki/Spotify-API
+        "largeImageKey": "spotify:ab67706c0000bebb835d763853e49e5d81bbc15d", // https://github.com/mewzax/Discord-RPC-Selfbot/wiki/Spotify-API
         "largeImageText": "", // will also be second row below title
         
         "smallImageKey": "",
